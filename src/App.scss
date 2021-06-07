@@ -1,0 +1,23 @@
+#content {
+  display: table;
+  margin: 40px auto;
+  .box-container {
+    width: 100%;
+    .box {
+      display: table-cell;
+      border-right: 1px solid #000;
+      border-bottom: 1px solid #000;
+      width: 90px;
+      text-align: center;
+      height: 90px;
+      font-size: 20px;
+      background-color: #089a08;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    .opacity-0 {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
